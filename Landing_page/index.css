@@ -1,0 +1,206 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell,sans-serif;
+}
+header{
+    display: flex;
+    
+    background-color: #1F2937;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo_home{
+    height:43px;
+    width: 53px;
+    margin:10px;  
+}
+
+.nav_bar{
+    display:flex;
+    width: 500px;
+    justify-content:space-between;
+    align-items: center;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.nav_button{
+    color: white;
+}
+.search_bar{
+width:300px;
+height: 40px;
+background-color: white;
+display: flex;
+align-items: center;
+}
+
+.search_input{
+color: black;
+width:300px;
+height: 35px;
+align-items: center;
+border: none;
+}
+.shoppingbag_text{
+ vertical-align: super;
+ 
+}
+
+.action_container {
+    margin-right: 10px;
+}
+
+.jumbo_container{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #1f2937;
+    height:400px;
+}
+.text_container{
+    height: 300px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;  
+    margin-left: 200px;
+}
+h1 {
+    font-size: 3em;
+    margin-bottom: 15px;
+}
+
+.button_sinup {
+    width: 100px;
+    height: 50px;
+    background-color: #3882f6;
+    margin-left: 120px;
+    margin-top: 20px;
+    text-align: center;
+}
+.image_container{
+    height: 300px;
+    width: 500px;
+    margin-right: 100px; 
+}
+.information_container{
+
+    height: 400px;
+}
+.information_heading{
+    text-align: center;
+    padding: 50px;
+}
+
+.info_pattern{
+    height: 200px;
+    width: 800px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 353px;
+}
+.image{
+    height: 150px;
+    width: 150px;
+    border-radius: 10%;
+}
+.quote_container{
+    height: 500px;
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+.quote_paragraph{
+    height: 150px;
+    width: 1200px;
+    font-size: 36px;
+    font-style: italic;
+    margin-top: 120px;
+}
+.quote_writer{
+    height: 50px;
+    font-size: 26px;  
+}
+.calltoaction_container{
+    height:390px;
+    align-content: center;
+   
+}
+.actionbox_container{
+    height: 150px;
+    width: 1000px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #3882f6;
+    border-radius: 10px;
+    align-items: center;
+    margin-left: 250px;
+}
+.action_text{
+    color: white;
+    text-align: center;
+    margin-left: 125px;
+}
+.button{
+    background-color: #3882f6;
+    border-radius: 8px;
+    height: 34px;
+    width: 135px;
+    border: 2px solid white;
+    margin-right: 171px;
+    color: white;
+}
+.final_container{
+    height: 100px;
+    background-color: #1f2937;
+    align-content: center;
+}
+
+button.clickHere {
+    margin-left: 120px;
+    margin-top: 20px;
+    border: none;
+}
+
+button.common {
+    width: 100px;
+    height: 40px;
+    background-color: #3882f6;
+    text-align: center;
+    color: #FFF;
+    font-family: Verdana, Geneva, sans-serif;
+    cursor: pointer;
+}
+
+button.clickHereFooter {
+    margin-right: 109px;
+    margin-top: 20px;
+    text-align: center;
+    background: none;
+    border: 3px solid white;
+    border-radius: 5px;
+}
+
+.final_text{
+    color: white;
+    margin-left: 595px;
+}
+
+.search_icon{
+    color: black;
+}
+
+.clickHere:hover,  .clickHereFooter:hover {
+    background-color:#002ead;
+    transition: 0.7s;
+}
+
+
+
